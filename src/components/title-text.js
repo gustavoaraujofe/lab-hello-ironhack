@@ -19,4 +19,4 @@ function title() {
   );
 }
 
-export default title();
+export default title;

@@ -14,4 +14,4 @@ function bloco() {
   );
 }
 
-export default bloco();
+export default bloco;

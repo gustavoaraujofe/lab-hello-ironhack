@@ -19,4 +19,4 @@ function logos() {
   );
 }
 
-export default logos();
+export default logos;

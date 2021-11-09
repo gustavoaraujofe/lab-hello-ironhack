@@ -1,18 +1,18 @@
 import "./App.css";
-import heroImage from "./components/heroImage";
-import blocos from "./components/blocos";
-import title from "./components/title-text";
-import logos from "./components/logos-react";
+import HeroImage from "./components/heroImage";
+import Blocos from "./components/blocos";
+import Title from "./components/title-text";
+import Logos from "./components/logos-react";
 
 function App() {
   return (
     <div>
-      <>{logos}</>
+      <><Logos /></>
       <div className="hero-image">
-        <div>{heroImage}</div>
-        <>{title}</>
+        <div><HeroImage /></div>
+        <><Title /></>
       </div>
-      <div>{blocos}</div>
+      <div><Blocos /></div>
     </div>
   );
 }
